@@ -1,11 +1,11 @@
 <div class="conversion-container">
     <label for="input-meter">Meter:</label>
-    <input type="number" id="input-meter" [(ngModel)]="meterValue" (input)="convertMeterToFoot()">
+    <input type="number" id="input-meter" [(ngModel)]="meterValue" (input)="convertMeterToFoot()" placeholder="0">
 
     <span id="equalto">=</span>
 
     <label for="input-foot">Fot:</label>
-    <input type="number" id="input-foot" [(ngModel)]="footValue" (input)="convertFootToMeter()">
+    <input type="number" id="input-foot" [(ngModel)]="footValue" (input)="convertFootToMeter()" placeholder="0">
 
     <div class="result">
       <p> <strong>{{ meterValue }}</strong> meter motsvarar <strong>{{ footValue }}</strong> fot.</p>
@@ -13,7 +13,7 @@
   </div>
   <div class="conversion-container" style="margin-bottom: 15em;">
     <label for="input-meter">Celsius:</label>
-    <input type="number" id="input-meter" [(ngModel)]="celsiusValue" (input)="convertCelsiusToFahrenheit()">
+    <input type="number" id="input-meter" [(ngModel)]="celsiusValue" (input)="convertCelsiusToFahrenheit()" placeholder="0">
 
     <span id="equalto">=</span>
 

@@ -23,11 +23,11 @@ export class ValueConversionComponent {
   convertFootToMeter() {
     this.meterValue = this.footValue / 3.28084;
   }
-
+  /* Konvertera Celsius till Fahrenheit */
   convertCelsiusToFahrenheit() {
     this.fahrenheitValue = (this.celsiusValue * 9/5) + 32;
   }
-
+  /* Konvertera Fahrenheit till Celsius */
   convertFahrenheitToCelsius() {
     this.celsiusValue = (this.fahrenheitValue - 32) * 5/9;
   }
