@@ -11,3 +11,15 @@
       <p> <strong>{{ meterValue }}</strong> meter motsvarar <strong>{{ footValue }}</strong> fot.</p>
     </div>
   </div>
+  <div class="conversion-container" style="margin-bottom: 15em;">
+    <label for="input-meter">Celsius:</label>
+    <input type="number" id="input-meter" [(ngModel)]="celsiusValue" (input)="convertCelsiusToFahrenheit()">
+
+    <span id="equalto">=</span>
+
+    <label for="input-foot">Fahrenheit:</label>
+    <input type="number" id="input-foot" [(ngModel)]="fahrenheitValue" (input)="convertFahrenheitToCelsius()" placeholder="0">
+
+    <div class="result">
+      <p> <strong>{{ celsiusValue }}</strong>&#8451; motsvarar <strong>{{ fahrenheitValue }}&#8457;</strong> </p>
+  </div>

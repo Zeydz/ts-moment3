@@ -1,9 +1,16 @@
 .conversion-container {
+    margin: auto;
     margin-top: 4em;
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 20px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
     #equalto {
         font-size: 3em;
         margin: auto;
@@ -13,6 +20,8 @@
       margin-bottom: 5px;
       text-align: center;
       margin: auto;
+      font-size: 1.3em;
+      font-weight: 500;
     }
   
     input[type="number"] {
