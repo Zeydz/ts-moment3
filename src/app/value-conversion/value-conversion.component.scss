@@ -1,4 +1,5 @@
 .conversion-container {
+    margin-top: 4em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -27,6 +28,10 @@
       outline: none;
       border-color: #007bff;
       box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    .result {
+      margin: auto;
     }
   }
   
