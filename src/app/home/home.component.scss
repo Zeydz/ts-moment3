@@ -7,3 +7,27 @@ main.home {
         font-weight: 500;
     }
 }
+
+@media (max-width: 900px) {
+    main.home {
+        width: 80%;
+        p {
+            width: 100%;
+            margin: auto;
+            margin-top: 50px;
+            font-size: 1.3em;
+            font-weight: 500;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    main.home {
+        h1 {
+            font-size: 1.6em;
+        }
+        p {
+            font-size: 1.1em;
+        }
+    }
+}
